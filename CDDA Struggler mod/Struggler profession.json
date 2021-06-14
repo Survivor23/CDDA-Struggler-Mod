@@ -6,7 +6,7 @@
     "description": "Your best friend sacrificed you and the rest of your friends to some ancient deity sometime before, during, or after the cataclysm errupted. Your friend has an insurmountable debt that can only be paid with by their bloody, visceral death. The means to this end will make you push your human limits to the furthest. You lost one of your arms during the struggle to escape, but managed to obtain a suitable bionic prosthetic. The only thought that fills your mind now is to enact revenge on the one who wronged you. You will struggle, and struggle no matter what until they are dead.",
     "points": 2,
     "items": {
-      "both": [ "footrags", "boxer_shorts" ]
+      "both": [ "footrags", "loincloth" ]
    },
     "traits": [ "PROF_STRUGGLER", "MASOCHIST_MED", "KILLER" ],
     "CBMs": [ "bio_blaster", "bio_power_storage_mkII", "bio_metabolics" ]
