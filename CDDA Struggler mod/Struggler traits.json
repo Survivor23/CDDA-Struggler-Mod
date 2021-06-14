@@ -1,0 +1,13 @@
+[
+  {
+    "type": "mutation",
+    "id": "PROF_STRUGGLER",
+    "name": { "str": "Blinding Hatred" },
+    "points": 2,
+    "description": "Someone you once trusted has an insurmountable debt that can only be paid with by their bloody, visceral death. The means to this end will make you push your human limits to the furthest. You will struggle, and struggle no matter what until they are dead.",
+    "passive_mods" : {"str_mod": 4},
+    "valid": false,
+    "purifiable": false,
+    "profession": true
+  }
+]

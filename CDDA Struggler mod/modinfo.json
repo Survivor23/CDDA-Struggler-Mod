@@ -1,0 +1,10 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "dda_struggler ",
+    "name": "CDDA Struggler mod",
+    "description": "Adds a profession and a few traits that fit the character of Guts from Berserk.",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]
