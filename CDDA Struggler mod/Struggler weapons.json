@@ -5,6 +5,7 @@
     "category": "weapons",
     "name": { "str": "Greatsword" },
     "description": "This is an extremely long sword.  It can cut through metal like paper.",
+    "looks_like": "zweihander",
     "weight": "3176 g",
     "volume": "3250 ml",
     "longest_side": "200 cm",
@@ -24,11 +25,11 @@
     "id": "dragonslayer",
     "type": "TOOL",
     "category": "weapons",
-    "name": { "str": "Dragon Slayer" },
-    "description": "It was far too big to rightfully be called a sword. Too big, too thick, too heavy, and too rough, it was more like a large hunk of iron.",
+    "name": { "str": "Apostle's bane" },
+    "description": "It was far too big to rightfully be called a sword. Too big, too thick, too heavy, and too rough, it was more like a large hunk of iron. Gripping this weapon represents the struggle you felt to obtain it, and it motivates you. Rip them apart.",
+    "looks_like": "zweihander",
     "color": "dark_gray",
     "material": [ "hardsteel" ],
-    "//": "Legacy artifact data was set for all stats +2 Str +6, carry_more, speed up x6, resist electricity, sap hp",
     "relic_data": {
       "passive_effects": [
         {
@@ -39,7 +40,8 @@
             { "value": "SPEED", "add": 60 },
             { "value": "ATTACK_SPEED", "add": -60 },
             { "value": "DEXTERITY", "add": 2 },
-            { "value": "ARMOR_ELEC", "add": -20 }
+            { "value": "ARMOR_ELEC", "add": -20 },
+            { "value": "INTELLIGENCE", "add": -4 }
           ],
           "hit_you_effect": [ { "id": "sword_healing", "hit_self": true } ]
         }
@@ -47,7 +49,7 @@
     },
     "weight": "12 kg",
     "volume": "5 L",
-    "longest_side": "250 cm",
+    "longest_side": "220 cm",
     "price": "200 kUSD",
     "cutting": 80,
     "bashing": 95,
@@ -56,6 +58,6 @@
     "qualities": [ [ "PRY", 2 ] ],
     "use_action": [ "CROWBAR" ],
     "flags": [ "UNBREAKABLE_MELEE" ],
-    "techniques": [ "WBLOCK_3", "tec_feint", "tec_counter" ]
+    "techniques": [ "WBLOCK_3", "tec_feint", "tec_counter", "WIDE", "BRUTAL", "SWEEP" ]
   }
 ]
