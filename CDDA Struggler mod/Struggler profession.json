@@ -10,5 +10,17 @@
    },
     "traits": [ "PROF_STRUGGLER", "MASOCHIST_MED", "KILLER" ],
     "CBMs": [ "bio_blaster", "bio_power_storage_mkII", "bio_metabolics" ]
+},
+  {
+    "type": "profession",
+    "id": "berserker",
+    "name": "Berserker",
+    "description": "Your best friend sacrificed you and the rest of your friends to some ancient deity sometime before, during, or after the cataclysm errupted. Your friend has an insurmountable debt that can only be paid with by their bloody, visceral death. The means to this end will make you push your human limits to the furthest. You lost one of your arms during the struggle to escape, but managed to obtain a suitable bionic prosthetic. The only thought that fills your mind now is to enact revenge on the one who wronged you. You have all the means to rip them apart, now. Show your wrath and go berserk.",
+    "points": -4,
+    "items": {
+      "both": [ "footrags", "loincloth", "dragonslayer" ]
+   },
+    "traits": [ "PROF_STRUGGLER", "MASOCHIST_MED", "KILLER" ],
+    "CBMs": [ "bio_blaster", "bio_power_storage_mkII", "bio_metabolics" ]
 }
 ]
