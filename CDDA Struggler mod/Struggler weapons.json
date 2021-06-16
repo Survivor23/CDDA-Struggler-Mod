@@ -19,7 +19,7 @@
     "color": "light_gray",
     "techniques": [ "WBLOCK_1", "WIDE", "BRUTAL", "SWEEP" ],
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 4 ] ],
-    "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "REACH_ATTACK" ]
+    "flags": [ "UNBREAKABLE_MELEE", "SHEATH_SWORD", "REACH_ATTACK" ]
   },
   {
     "id": "dragonslayer",
@@ -57,7 +57,7 @@
     "symbol": ";",
     "qualities": [ [ "PRY", 2 ] ],
     "use_action": [ "CROWBAR" ],
-    "flags": [ "UNBREAKABLE_MELEE" ],
-    "techniques": [ "WBLOCK_3", "tec_feint", "tec_counter", "WIDE", "BRUTAL", "SWEEP", "REACH_ATTACK" ]
+    "flags": [ "UNBREAKABLE_MELEE", "REACH_ATTACK" ],
+    "techniques": [ "WBLOCK_3", "tec_feint", "tec_counter", "WIDE", "BRUTAL", "SWEEP" ]
   }
 ]
